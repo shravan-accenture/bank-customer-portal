@@ -4,12 +4,7 @@ import path from "path";
 
 const router = Router();
 
-const filePath = path.join(
-  __dirname,
-  "..",
-  "data",
-  "featureFlags.json"
-);
+const filePath = path.join(__dirname, "..", "data", "featureFlags.json");
 
 // GET Feature Flags
 router.get("/", (req, res) => {

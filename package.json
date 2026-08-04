@@ -1,0 +1,22 @@
+{
+  "name": "bank-customer-portal",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix frontend\" \"npm run dev --prefix backend\"",
+    "lint": "npm run lint --prefix frontend && npm run lint --prefix backend",
+    "format": "npm run format --prefix frontend && npm run format --prefix backend",
+    "format:check": "npm run format:check --prefix frontend && npm run format:check --prefix backend",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shravan-accenture/bank-customer-portal.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.4",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.3.0"
+  }
+}

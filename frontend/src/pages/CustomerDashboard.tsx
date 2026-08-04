@@ -65,15 +65,9 @@ function CustomerDashboard() {
       <h3>Available Features</h3>
 
       <ul>
-        <li>
-          Transfer Money:{" "}
-          {flags?.transferMoney ? "✅ Enabled" : "❌ Disabled"}
-        </li>
+        <li>Transfer Money: {flags?.transferMoney ? "✅ Enabled" : "❌ Disabled"}</li>
 
-        <li>
-          AI Assistant:{" "}
-          {flags?.aiAssistant ? "✅ Enabled" : "❌ Disabled"}
-        </li>
+        <li>AI Assistant: {flags?.aiAssistant ? "✅ Enabled" : "❌ Disabled"}</li>
       </ul>
     </div>
   );

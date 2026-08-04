@@ -17,10 +17,7 @@ function Login() {
 
       <h2>Login As</h2>
 
-      <button
-        onClick={() => navigate("/admin")}
-        style={{ padding: "10px 20px", width: "200px" }}
-      >
+      <button onClick={() => navigate("/admin")} style={{ padding: "10px 20px", width: "200px" }}>
         Admin
       </button>
 
